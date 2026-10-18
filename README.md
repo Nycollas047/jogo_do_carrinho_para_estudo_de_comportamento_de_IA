@@ -1,5 +1,9 @@
 # Carrinho vs IA — teste de feedback tátil com DualSense
 
+## Página de apresentação
+
+A página [`index.html`](./index.html) reúne o convite e as instruções em um formato mais visual. Para disponibilizá-la por um link público, é necessário ativar o GitHub Pages nas configurações do repositório (Settings → Pages → Build and deployment → GitHub Actions).
+
 ## Quer testar?
 
 Estou convidando pessoas para experimentar este joguinho e compartilhar como foi a experiência. O projeto explora formas de usar feedback tátil (vibração) em um controle, com interesse em acessibilidade e em como diferentes pessoas percebem esses sinais.
