@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Experimente Carrinho vs IA, um jogo experimental sobre feedback tátil com controle DualSense.">
+  <title>Carrinho vs IA — participe do teste</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#141c2f; --line:#2b3954; --text:#eef3ff; --muted:#b5c1d6; --accent:#79e0c3; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif; color:var(--text); background:radial-gradient(ellipse at 75% 0%,#18324a 0,transparent 38%),var(--bg); }
+    main { width:min(900px,100% - 32px); margin:0 auto; padding:64px 0; }
+    .tag { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.8rem; }
+    h1 { font-size:clamp(2.3rem,7vw,4.5rem); line-height:1.05; margin:.5rem 0 1rem; letter-spacing:-.04em; }
+    p { color:var(--muted); }
+    .lead { max-width:700px; font-size:1.2rem; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:28px 0 44px; }
+    a.button { display:inline-block; padding:12px 18px; border-radius:12px; text-decoration:none; font-weight:750; background:var(--accent); color:#092019; }
+    a.secondary { color:var(--text); border:1px solid var(--line); background:var(--panel); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:18px 0 36px; }
+    section.card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:20px; }
+    h2 { margin-top:0; font-size:1.35rem; }
+    ol,ul { padding-left:1.25rem; color:var(--muted); }
+    li { margin:.45rem 0; }
+    .note { border-left:3px solid var(--accent); padding:4px 0 4px 16px; }
+    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:48px; padding-top:20px; font-size:.9rem; }
+    a { color:var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <div class="tag">Convite para testar</div>
+  <h1>Carrinho vs IA</h1>
+  <p class="lead">Experimente um jogo experimental que explora como sinais de vibração podem ajudar a comunicar o que acontece durante uma partida. Sua experiência e suas sugestões ajudam a orientar os próximos passos.</p>
+  <div class="actions">
+    <a class="button" href="./carrinho-vs-ia-corrigido.zip" download>Baixar o jogo (ZIP)</a>
+    <a class="button secondary" href="./README.md">Instruções completas</a>
+  </div>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Controle recomendado</h2>
+      <p>Se tiver um <strong>DualSense (PS5)</strong>, conecte-o ao computador por cabo USB antes de começar. O cabo é recomendado para este teste; o reconhecimento e a vibração podem variar conforme o sistema e o navegador.</p>
+    </section>
+    <section class="card">
+      <h2>Como começar</h2>
+      <ol>
+        <li>Baixe o ZIP e extraia os arquivos para uma pasta.</li>
+        <li>Conecte o DualSense por USB, se for usá-lo.</li>
+        <li>Abra o jogo nos arquivos extraídos e experimente.</li>
+        <li>Depois, conte à pessoa que enviou o jogo como foi.</li>
+      </ol>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>O que queremos saber</h2>
+    <ul>
+      <li>Foi fácil iniciar e entender o jogo?</li>
+      <li>Você percebeu as vibrações e entendeu o que elas indicavam?</li>
+      <li>O feedback tátil ajudou, atrapalhou ou não fez diferença?</li>
+      <li>Qual controle e conexão você usou? O que você mudaria?</li>
+    </ul>
+    <p class="note">Não é necessário ter conhecimento técnico. Se a vibração causar desconforto, faça uma pausa ou pare de jogar.</p>
+  </section>
+
+  <footer>
+    Projeto experimental em desenvolvimento, voltado ao estudo de padrões de feedback tátil e possibilidades de acessibilidade. Os resultados dependem do equipamento e da experiência de cada pessoa.
+    <br><a href="https://github.com/Nycollas047/jogo_do_carrinho_para_estudo_de_comportamento_de_IA">Ver o código e acompanhar o projeto no GitHub</a>
+  </footer>
+</main>
+</body>
+</html>
