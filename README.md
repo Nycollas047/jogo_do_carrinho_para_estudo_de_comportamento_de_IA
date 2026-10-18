@@ -46,6 +46,8 @@ Este projeto está em desenvolvimento e pode apresentar falhas ou diferenças de
 
 ## Feedback
 
+Use o [roteiro de feedback](./FEEDBACK.md) como guia ou envie suas observações diretamente à pessoa que compartilhou o jogo.
+
 Depois de testar, compartilhe suas observações com a pessoa que enviou o jogo. Comentários sobre facilidade de uso, clareza dos sinais e compatibilidade do controle são especialmente úteis.
 
 ---
